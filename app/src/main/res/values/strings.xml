@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Explorify</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="logo">logo</string>
+    <string name="website">Copyright \u00a9 2016 explorify.quickoform.com \n All rights reserved.</string>
+    <string name="title_activity_email_verification">Email Verification</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_splash_screen">Splash Screen</string>
+    <string name="category_save">Save</string>
+    <string name="email_confirmation_message">We have send you verification link at to confirm your email address. Please go to your email account and click on the verify link.</string>
+
+    <!-- Error strings -->
+    <string name="not_connected">GoogleApiClient no yet connected. Try again.</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+    <string name="title_activity_news_details">News Details</string>
+    <string name="email_resend_button_text">Resend Email Confirmation</string>
+    <string name="posted_on">Posted on - </string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="title_activity_open_image">Open Image</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+    <string name="years">Years</string>
+    <string name="month">Month</string>
+    <string name="full_name">Full Name</string>
+    <string name="user_profile">User Profile</string>
+    <string name="save">Save</string>
+    <string name="year_of_experience">Year of Experience</string>
+    <string name="year">Year</string>
+    <string name="name">Name</string>
+    <string name="month_of_experience">Month of Experience</string>
+</resources>

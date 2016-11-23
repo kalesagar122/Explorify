@@ -1,0 +1,14 @@
+<menu xmlns:android1="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/refresh_news_activity"
+        android1:showAsAction="always"
+        android:icon="@drawable/ic_action_256"
+        android:title="Refresh" />
+<item
+    android:id="@+id/share"
+    android1:showAsAction="always"
+    android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+    android:title="Share" />
+
+</menu>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/txtTitleMsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:id="@+id/txtPosted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txtTitleMsg"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:text= "@string/posted_on"
+        android:fontFamily="sans-serif-thin"/>
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtPosted"
+        android:layout_alignBaseline="@+id/txtPosted"
+        android:layout_alignBottom="@+id/txtPosted"
+        android:textStyle="italic"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-thin"
+        />
+
+    <TextView
+        android:id="@+id/txtExpire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitleMsg"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:text= "Expire on -"
+        android:fontFamily="sans-serif-thin"
+        android:layout_toRightOf="@id/txtDate"
+        android:layout_alignBaseline="@+id/txtDate"
+        android:layout_alignBottom="@+id/txtDate" />
+
+    <TextView
+        android:id="@+id/txtExpireDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtExpire"
+        android:layout_alignBaseline="@+id/txtExpire"
+        android:layout_alignBottom="@+id/txtExpire"
+        android:textStyle="italic"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-thin"
+        />
+    <TextView
+        android:id="@+id/txtDescriptionMsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPosted"
+        android:layout_marginTop="5dip"
+        android:textColor="#343434"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+    <com.explorify.companyname.explorify.FeedImageView
+        android:id="@+id/feedImage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDescriptionMsg"
+        android:background="@color/white"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        />
+    <TextView
+        android:id="@+id/txtCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/feedImage1"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:text= "Company - "
+        android:fontFamily="sans-serif-thin"/>
+
+    <TextView
+        android:id="@+id/txtCompanyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtCompany"
+        android:layout_alignBaseline="@+id/txtCompany"
+        android:layout_alignBottom="@+id/txtCompany"
+        android:textStyle="italic"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-thin"
+        />
+</RelativeLayout>
